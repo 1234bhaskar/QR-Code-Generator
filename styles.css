@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(236 62 87) ; */
+    font-family: "Ubuntu", sans-serif;
+    /* background: url("wedding.jpeg") no-repeat fixed center  ; */
+    
+    background: url("wedding.jpeg") no-repeat fixed;
+        background-position: center;
+        background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+     
+}
+
+#content{
+    min-height: 50vh;
+    background:#fff;
+    border: solid gold 2px;
+    border-radius: 5px;
+    width: 30%;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #C40C0C;
+    box-shadow:  0px 0px 5px 2px #C40C0C;
+}
+
+
+.heading2{
+text-align: center;
+height: 10%;
+font-size: 25px;
+}
+
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+}
+.main input {
+    padding-left:2px ;
+}
+#content button{
+    /* margin-top: 20px; */
+    padding: 10px;
+    border: none;
+    /* background-color: rgb(39, 107, 245); */
+    background-color: gold;
+    font-weight: bold;
+    color: red;
+    border-radius: 2px;
+
+}
+
+.image{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#qrImage{
+ 
+}
+.qrImage2{
+        display: block;
+        border: 1px solid gray;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff;
+}
